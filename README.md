@@ -1,29 +1,28 @@
 # Discord Error Logger Bot
 
-Bot Discord ini dibuat untuk menangkap dan melaporkan error yang tidak tertangani (**uncaught exceptions** dan **unhandled rejections**) ke channel Discord tertentu menggunakan **discord.js**.
+This Discord bot is designed to capture and report unhandled errors (**uncaught exceptions** and **unhandled rejections**) to a specific Discord channel using **discord.js**.
 
-## 🚀 Fitur
-- Menangkap **uncaught exceptions** secara otomatis.
-- Menangkap **unhandled promise rejections**.
-- Mengirim laporan error ke channel Discord dalam bentuk embed.
-- Menggunakan **discord.js v14** untuk membuat dan mengelola bot.
+## 🚀 Features
+- Automatically captures **uncaught exceptions**.
+- Detects **unhandled promise rejections**.
+- Sends error reports to a Discord channel as an embedded message.
+- Uses **discord.js v14** to create and manage the bot.
 
-## 🛠 Teknologi yang Digunakan
-- **Node.js** - Runtime JavaScript untuk menjalankan aplikasi.
-- **JavaScript** - Bahasa pemrograman utama yang digunakan dalam proyek ini.
-- **discord.js** - Library untuk berinteraksi dengan API Discord.
+## 🛠 Technologies Used
+- **Node.js** - JavaScript runtime environment.
+- **JavaScript** - The main programming language used in this project.
+- **discord.js** - A library for interacting with the Discord API.
 
-## ⚠️ Izin yang Diperlukan
-Pastikan bot memiliki izin berikut di server Discord Anda:
+## ⚠️ Required Permissions
+Ensure the bot has the following permissions in your Discord server:
 - `Read Messages`
 - `Send Messages`
 - `Embed Links`
 
-## 🖋️ Kredit
-Dibuat oleh: **NelloW**
+## 🖋️ Credits
+Created by: **NelloW**
 
-Jika Anda ingin berkontribusi atau melaporkan masalah, silakan buat **pull request** atau **issue** pada repository ini.
+If you would like to contribute or report any issues, please submit a **pull request** or **issue** on this repository.
 
-## 📄 Lisensi
-Proyek ini dilisensikan di bawah **MIT License**.
-
+## 📄 License
+This project is licensed under the **MIT License**.
